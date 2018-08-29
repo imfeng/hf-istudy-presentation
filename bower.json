@@ -1,0 +1,21 @@
+{
+  "name": "istudy",
+  "authors": [
+    "HermitF <fantasrulai@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
+}

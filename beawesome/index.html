@@ -1,0 +1,262 @@
+<!--
+    Author : Muhibbudin Suretno
+    Build With : Semantic-UI and jQuery
+    Images By : Google and Freepik.com
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Single Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/flexslider.css">
+</head>
+
+<body>
+    <div class="ui fixed top large menu">
+        <a href="#section-one" data-toggle="slide" class="item"><h2>Be Awesome!</h2></a>
+        <a href="javascript:void(0)" id="toggle" class="item"><h2><i class="sidebar icon"></i></h2></a>
+        <div class="menu right">
+            <a href="#section-one" data-toggle="slide" class="item">Home</a>
+            <a href="#section-two" data-toggle="slide" class="item">What We Are?</a>
+            <a href="#section-three" data-toggle="slide" class="item">Slider</a>
+            <a class="item pointer" data-toggle="popup" data-content="#product" data-position="bottom right">Dropdown</a>
+            <div id="product" class="ui popup">
+                <div class="ui secondary vertical menu">
+                    <div class="header item">DROPDOWN LIST</div>
+                    <a href="" class="item">Menu 1</a>
+                    <a href="" class="item">Menu 2</a>
+                    <a href="" class="item">Menu 3</a>
+                    <a href="" class="item">Menu 4</a>
+                </div>
+            </div>
+            <a href="#section-five" data-toggle="slide" class="item">Blog</a>
+            <a href="#section-six" data-toggle="slide" class="item">Contact</a>
+        </div>
+    </div>
+    <div class="ui sidebar inverted vertical menu">
+        <a href="#section-one" data-toggle="slide" class="item">Home</a>
+        <a href="#section-two" data-toggle="slide" class="item">What We Are?</a>
+        <a href="#section-three" data-toggle="slide" class="item">Slider</a>
+        <div class="ui accordion item">
+            <div class="title">
+                Dropdown
+            </div>
+            <div class="content">
+                <div class="ui secondary vertical menu">
+                    <div class="header item">DROPDOWN LIST</div>
+                    <a href="" class="item">Menu 1</a>
+                    <a href="" class="item">Menu 2</a>
+                    <a href="" class="item">Menu 3</a>
+                    <a href="" class="item">Menu 4</a>
+                </div>
+            </div>
+        </div>
+        <a href="#section-five" data-toggle="slide" class="item">Blog</a>
+        <a href="#section-six" data-toggle="slide" class="item">Contact</a>
+    </div>
+    <div class="pusher">
+        <div class="section one" id="section-one">
+            <div class="ui centered stackable grid">
+                <div class="eight wide column center aligned">
+                    <div class="ui header title">Be Awesome!</div>
+                    <div class="header sub">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quia placeat totam vel pariatur quidem, velit, esse magni vitae provident ab soluta ipsa suscipit voluptatibus voluptatum nobis ex nam quas?
+                        <p class="upper">Bersama, Berkarya, Berjaya!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section two" id="section-two">
+            <div class="ui container">
+                <div class="ui horizontal divider">
+                    <h2><i class="angle left icon"></i> What we are? <i class="angle right icon"></i></h2>
+                </div>
+                <div class="ui three column stackable grid">
+                    <div class="column" align="center">
+                        <p><img src="assets/img/2.png" height="150px" class="ui rounded image" alt="Sample"></p>
+                        <p class="ui header">First</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus reiciendis sapiente culpa consequatur, error veritatis ducimus quas unde fuga repellat itaque ad odio ipsum consequuntur natus quaerat, eligendi delectus rem.</p>
+                    </div>
+                    <div class="column" align="center">
+                        <p><img src="assets/img/3.png" height="150px" class="ui rounded image" alt="Sample"></p>
+                        <p class="ui header">Second</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio eum eius ad natus omnis ipsum, ipsa dolor incidunt officia saepe corporis. Quos aliquam repudiandae placeat molestiae doloremque fugiat sapiente.</p>
+                    </div>
+                    <div class="column" align="center">
+                        <p><img src="assets/img/4.png" height="150px" class="ui rounded image" alt="Sample"></p>
+                        <p class="ui header">Third</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora magni nemo ab, magnam omnis earum esse quidem doloremque impedit cumque quibusdam nesciunt officiis autem modi ea inventore, dicta, fugiat explicabo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section three" id="section-three">
+            <div class="ui container">
+                <div class="ui horizontal divider">
+                    <h2><i class="angle left icon"></i> Testimoni <i class="angle right icon"></i></h2>
+                </div>
+                <div class="ui centered stackable grid">
+                    <div class="ten wide column center aligned flexslider">
+                        <ul class="slides">
+                            <li>
+                                <p align="center"><img src="assets/img/people_1.jpg" class="ui circular image" alt="Sample" style="height: 200px; width: 200px;"></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus reiciendis sapiente culpa consequatur, error veritatis ducimus quas unde fuga repellat itaque ad odio ipsum consequuntur natus quaerat, eligendi delectus rem.</p>
+                                <p class="ui header">Sarah Connor</p>
+                            </li>
+                            <li>
+                                <p align="center"><img src="assets/img/people_2.jpg" class="ui circular image" alt="Sample" style="height: 200px; width: 200px;"></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus reiciendis sapiente culpa consequatur, error veritatis ducimus quas unde fuga repellat itaque ad odio ipsum consequuntur natus quaerat, eligendi delectus rem.</p>
+                                <p class="ui header">James Doe</p>
+                            </li>
+                            <li>
+                                <p align="center"><img src="assets/img/people_3.jpg" class="ui circular image" alt="Sample" style="height: 200px; width: 200px;"></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus reiciendis sapiente culpa consequatur, error veritatis ducimus quas unde fuga repellat itaque ad odio ipsum consequuntur natus quaerat, eligendi delectus rem.</p>
+                                <p class="ui header">Ryan Steve</p>
+                            </li>
+                            <li>
+                                <p align="center"><img src="assets/img/people_4.jpg" class="ui circular image" alt="Sample" style="height: 200px; width: 200px;"></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus reiciendis sapiente culpa consequatur, error veritatis ducimus quas unde fuga repellat itaque ad odio ipsum consequuntur natus quaerat, eligendi delectus rem.</p>
+                                <p class="ui header">Mary Doe</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="section four" id="section-four">
+            <div class="ui container">
+                <div class="ui centered stackable grid">
+                    <div class="six wide column">
+                        <a href="" class="ui fluid massive inverted button">JOIN NOW!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section five" id="section-five">
+            <div class="ui container">
+                <div class="ui horizontal divider">
+                    <h2><i class="angle left icon"></i> 4 Popular Article <i class="angle right icon"></i></h2>
+                </div>
+                <div class="ui four column stackable grid">
+                    <div class="column">
+                        <div class="ui fluid card">
+                            <div class="image">
+                                <img src="assets/img/blog-1.jpg" alt="Blog image 1">
+                            </div>
+                            <div class="content">
+                                <div class="header">Meetup in Microsoft</div>
+                                <div class="description" align="justify">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reprehenderit rerum rem delectus, at. Consequatur nemo accusantium dolore quos, quaerat temporibus obcaecati, totam nam. Doloribus corrupti at distinctio delectus, tempora...
+                                </div>
+                            </div>
+                            <div class="extra content">
+                                <i class="eye icon"></i> 42 View
+                                <div class="right floated">
+                                    <a href="" class="ui tiny teal button">Read More <i class="chevron right icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui fluid card">
+                            <div class="image">
+                                <img src="assets/img/blog-2.jpg" alt="Blog image 2">
+                            </div>
+                            <div class="content">
+                                <div class="header">New Macbook Pro</div>
+                                <div class="description" align="justify">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reprehenderit rerum rem delectus, at. Consequatur nemo accusantium dolore quos, quaerat temporibus obcaecati, totam nam. Doloribus corrupti at distinctio delectus, tempora...
+                                </div>
+                            </div>
+                            <div class="extra content">
+                                <i class="eye icon"></i> 121 View
+                                <div class="right floated">
+                                    <a href="" class="ui tiny teal button">Read More <i class="chevron right icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui fluid card">
+                            <div class="image">
+                                <img src="assets/img/blog-3.jpg" alt="Blog image 3">
+                            </div>
+                            <div class="content">
+                                <div class="header">iPhone 7 protoype?</div>
+                                <div class="description" align="justify">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reprehenderit rerum rem delectus, at. Consequatur nemo accusantium dolore quos, quaerat temporibus obcaecati, totam nam. Doloribus corrupti at distinctio delectus, tempora...
+                                </div>
+                            </div>
+                            <div class="extra content">
+                                <i class="eye icon"></i> 183 View
+                                <div class="right floated">
+                                    <a href="" class="ui tiny teal button">Read More <i class="chevron right icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui fluid card">
+                            <div class="image">
+                                <img src="assets/img/blog-4.jpg" alt="Blog image 4">
+                            </div>
+                            <div class="content">
+                                <div class="header">Workshop Apple</div>
+                                <div class="description" align="justify">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed reprehenderit rerum rem delectus, at. Consequatur nemo accusantium dolore quos, quaerat temporibus obcaecati, totam nam. Doloribus corrupti at distinctio delectus, tempora...
+                                </div>
+                            </div>
+                            <div class="extra content">
+                                <i class="eye icon"></i> 135 View
+                                <div class="right floated">
+                                    <a href="" class="ui tiny teal button">Read More <i class="chevron right icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section six" id="section-six">
+            <div class="ui container">
+                <div class="ui two column stackable grid">
+                    <div class="ten wide column center aligned">
+                        <div class="ui large white header">Find on map!</div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7926.778573748971!2d106.80184840111973!3d-6.5984470676489355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x19b00b0d4a10ce2a!2sIstana+Bogor!5e0!3m2!1sen!2sid!4v1457519574130" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="six wide column center aligned">
+                        <div class="ui large white header">Getting problem?</div>
+                        <form action="" class="ui form">
+                            <div class="field">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="field">
+                                <input type="email" name="email" placeholder="Your Mail" required>
+                            </div>
+                            <div class="field">
+                                <textarea placeholder="Write feedback here..." required></textarea>
+                            </div>
+                            <button class="ui fluid big inverted button" type="submit">Send Feedback</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section seven" id="section-seven" align="center">
+            Nothing special, build with Semantic-UI and jQuery. License Nothing with author Muhibbudin Suretno
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/semantic.min.js"></script>
+    <script type="text/javascript" src="assets/js/flexslider.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
